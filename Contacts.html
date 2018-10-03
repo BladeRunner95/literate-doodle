@@ -5,7 +5,7 @@
 	<title>Contacts</title>
   </head>
        <body>
-       	<header>
+       	<header class="top">
          	<ul>
 	         	<li>
 	         		<a href="index.html">
@@ -24,12 +24,21 @@
 	         			</li>
          	</ul>
     	</header>
-	<main>
-		<ul>
-			<li>Saint-Petersburg, Russia</li>
-			<li>https://vk.com/id17850295</a></li>
-			<li>+972 55-9361463</li>
-		</ul>
+	<main class="mid">
+		<form action="">
+<fieldset>
+	<legend>Contact details</legend>	<!-- надпись над группой полей -->
+	<label>v.buldygin@yandex.ru:</label>	 <br />
+	<label>+972 55-9361463:</label>			 <br />
+	<label>Saint-Petersburg, Russia:</label> <br />
+</fieldset>
+		</form>
+<form action="" method="post">
+<p> Put your questions here, we will get in touch (probably) </p>
+<textarea name="comments" cols="50" rows="4" placeholder="Start texting..."></textarea>
+<input type="submit" value="send">
+
+</form>
 	</main>
 </body>
 </html>
